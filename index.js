@@ -1,1 +1,99 @@
-const _0x31e661=_0x3334;(function(_0x4703e3,_0x45c878){const _0x1b7ea7=_0x3334,_0x36dfea=_0x4703e3();while(!![]){try{const _0x51f4ff=parseInt(_0x1b7ea7(0x161))/(-0x2*0x230+-0x1ca9*-0x1+-0x1848)+parseInt(_0x1b7ea7(0x16d))/(0xe03+0x14bb+-0x22bc)*(-parseInt(_0x1b7ea7(0x176))/(0x199f+0x1b*-0xd5+-0x325))+-parseInt(_0x1b7ea7(0x120))/(-0x137c+0x1*0x62e+0xd52)+parseInt(_0x1b7ea7(0x173))/(-0x1cd+0x2*0x5c6+-0x9ba)+parseInt(_0x1b7ea7(0x129))/(-0x4*-0x5b5+-0x43*0x1+0x1d*-0xc7)*(-parseInt(_0x1b7ea7(0x124))/(-0x5c*-0x4c+0x6a7+-0xb50*0x3))+parseInt(_0x1b7ea7(0x13c))/(-0xdaa+0x1298+0x21*-0x26)*(parseInt(_0x1b7ea7(0x13d))/(-0x2249*0x1+0x23f*0xd+0x51f))+parseInt(_0x1b7ea7(0x179))/(0x1058*-0x1+-0x101*-0x24+-0x13c2);if(_0x51f4ff===_0x45c878)break;else _0x36dfea['push'](_0x36dfea['shift']());}catch(_0x547be1){_0x36dfea['push'](_0x36dfea['shift']());}}}(_0x42dd,-0x25ed3*-0x1+-0x668cc+0x8a6d6));import _0x134f62 from'express';import _0xaabb9 from'node-fetch';const app=_0x134f62(),PORT=process[_0x31e661(0x136)][_0x31e661(0x158)]||-0x928*0x1+0x1*-0x1ee5+0x3b95,API_URL=_0x31e661(0x12a)+_0x31e661(0x15e)+_0x31e661(0x133)+_0x31e661(0x12c)+_0x31e661(0x126)+_0x31e661(0x132),REFRESH_RATE=0x1*-0x102b+0xc4b+-0x58*-0x22;function _0x3334(_0x24239a,_0x563c62){_0x24239a=_0x24239a-(0x1*0x13f5+0x56*0x67+-0x1*0x356f);const _0x5200a9=_0x42dd();let _0x206627=_0x5200a9[_0x24239a];return _0x206627;}let jobIds=[];app[_0x31e661(0x171)]('/',(_0x3eb438,_0x168a29)=>{const _0x46455b=_0x31e661,_0xc35f32={'DzWme':function(_0x1de58b,_0x2c6c5b){return _0x1de58b>_0x2c6c5b;},'LwMMs':_0x46455b(0x125)+_0x46455b(0x15a)},_0x36eba7=_0x46455b(0x135)+_0x46455b(0x16b)+_0x46455b(0x142)+_0x46455b(0x145)+_0x46455b(0x153)+_0x46455b(0x123)+_0x46455b(0x143)+_0x46455b(0x15c)+_0x46455b(0x146)+_0x46455b(0x12e)+_0x46455b(0x147)+_0x46455b(0x134)+_0x46455b(0x170)+_0x46455b(0x172)+_0x46455b(0x174)+_0x46455b(0x138)+_0x46455b(0x166)+_0x46455b(0x167)+_0x46455b(0x160)+_0x46455b(0x177)+_0x46455b(0x157)+_0x46455b(0x15b)+_0x46455b(0x141)+_0x46455b(0x156)+_0x46455b(0x16e)+_0x46455b(0x16f)+_0x46455b(0x15f)+_0x46455b(0x14a)+_0x46455b(0x13e)+_0x46455b(0x14b)+_0x46455b(0x165)+_0x46455b(0x139)+_0x46455b(0x13a)+_0x46455b(0x128)+_0x46455b(0x14e)+_0x46455b(0x121)+_0x46455b(0x154)+(_0xc35f32[_0x46455b(0x162)](jobIds[_0x46455b(0x150)],0x21a*-0x4+-0x17f0+0x2058)?jobIds[_0x46455b(0x16c)](_0x1b993b=>_0x46455b(0x16a)+_0x46455b(0x12d)+_0x1b993b+_0x46455b(0x140))[_0x46455b(0x148)](''):_0xc35f32[_0x46455b(0x152)])+(_0x46455b(0x122)+_0x46455b(0x144)+_0x46455b(0x15d));_0x168a29[_0x46455b(0x12b)](_0x36eba7);}),app[_0x31e661(0x171)](_0x31e661(0x178),(_0x27018b,_0x176b2b)=>{const _0x4c315b=_0x31e661;_0x176b2b[_0x4c315b(0x163)](jobIds);});async function fetchJobIds(){const _0x51cc50=_0x31e661,_0x3f4d9c={'FtXNw':function(_0x502aef,_0x350831){return _0x502aef(_0x350831);},'EDfTr':_0x51cc50(0x12f),'wmNix':_0x51cc50(0x155)+_0x51cc50(0x168)};try{const _0x2a2d2d=await _0x3f4d9c[_0x51cc50(0x130)](_0xaabb9,API_URL),_0x5b90db=await _0x2a2d2d[_0x51cc50(0x163)]();_0x5b90db&&_0x5b90db[_0x51cc50(0x159)]&&(jobIds=_0x5b90db[_0x51cc50(0x159)][_0x51cc50(0x16c)](_0x3de8fd=>{const _0x5a1c00=_0x51cc50,_0x4355d8=_0x3de8fd[_0x5a1c00(0x13f)+_0x5a1c00(0x14d)]||'',_0x347b82=_0x4355d8[_0x5a1c00(0x169)](/gameInstanceId=([\w-]+)/);return _0x347b82?_0x347b82[-0x557*-0x5+0xb*-0x18d+-0x1*0x9a3]:null;})[_0x51cc50(0x137)](Boolean),console[_0x51cc50(0x14f)](_0x3f4d9c[_0x51cc50(0x175)],jobIds));}catch(_0x14fb5e){console[_0x51cc50(0x127)](_0x3f4d9c[_0x51cc50(0x14c)],_0x14fb5e[_0x51cc50(0x149)]);}}setInterval(fetchJobIds,REFRESH_RATE),app[_0x31e661(0x151)](PORT,()=>{const _0x1bd3d2=_0x31e661;console[_0x1bd3d2(0x14f)](_0x1bd3d2(0x13b)+_0x1bd3d2(0x164)+_0x1bd3d2(0x131)+PORT);});function _0x42dd(){const _0x45cd6e=['message','dding:\x205px','ize:\x2016px;','wmNix','ink','\x0a\x20\x20\x20\x20\x20\x20<h1','log','length','listen','LwMMs','d>\x0a\x20\x20\x20\x20\x20\x20<','h1>\x0a\x20\x20\x20\x20\x20\x20','Error\x20fetc','h1\x20{\x20color','0f0;\x20paddi','PORT','pets','...</p>','ng:\x2020px;\x20','>\x0a\x20\x20\x20\x20\x20\x20<m','tml>\x0a\x20\x20','e68.lunes.','ob-id\x20{\x20pa','d:\x20#1a1a1a','394063MYJWnr','DzWme','json','ning\x20on\x20po','\x20}\x0a\x20\x20\x20\x20\x20\x20<','monospace;','\x20backgroun','hing\x20API:','match','<div\x20class','TYPE\x20html>','map','49508xqCHSR',':\x20#0f0;\x20}\x0a','\x20\x20\x20\x20\x20\x20\x20\x20.j','\x20\x20\x20\x20<style','get','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','2746195QlCAic','body\x20{\x20fon','EDfTr','6ogbTeU',';\x20color:\x20#','/jobids','1594270oLvjru','1977056vXtKFW','>Job\x20IDs</','\x0a\x20\x20\x20\x20</bod','title>Job\x20','49YkkKpC','<p>Loading','in_money=1','error','\x20\x20\x20\x20<body>','418182ivyBsx','http://nod','send','api/pets?m','=\x22job-id\x22>','quiv=\x22refr','Job\x20IDs:','FtXNw','rt\x20','0000000','host:3052/','nt=\x222\x22>\x0a\x20\x20','\x0a\x20\x20\x20\x20<!DOC','env','filter','t-family:\x20','/style>\x0a\x20\x20','\x20\x20</head>\x0a','Server\x20run','1849784JSAeWU','9qeblqt','\x200;\x20font-s','chillihubL','</div>','}\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20<html','IDs</title','y>\x0a\x20\x20\x20\x20</h','>\x0a\x20\x20\x20\x20<hea','eta\x20http-e','esh\x22\x20conte','join'];_0x42dd=function(){return _0x45cd6e;};return _0x42dd();}
+import express from "express";
+import fetch from "node-fetch";
+const app = express();
+
+const PORT = process.env.PORT || 5000;
+const API_URL = "http://node68.lunes.host:3052/api/pets?min_money=10000000";
+const REFRESH_RATE = 2000;
+
+let jobIds = [];
+let servers = [];
+
+app.get("/", (req, res) => {
+  const html = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Pet Servers</title>
+      <meta http-equiv="refresh" content="2">
+      <style>
+        body { font-family: monospace; background: #1a1a1a; color: #0f0; padding: 20px; }
+        h1 { color: #0f0; }
+        .server { background: #2a2a3a; padding: 10px; margin: 8px 0; border-radius: 8px; }
+        .name { color: #4ade80; font-weight: bold; font-size: 16px; }
+        .money { color: #fbbf24; font-size: 14px; }
+        .players { color: #60a5fa; font-size: 12px; }
+        .jobid { color: #94a3b8; font-size: 12px; }
+      </style>
+    </head>
+    <body>
+      <h1>Pet Servers (${servers.length})</h1>
+      ${servers.length > 0 
+        ? servers.map(s => `
+          <div class="server">
+            <div class="name">${s.name}</div>
+            <div class="money">$${s.money}</div>
+            <div class="players">Players: ${s.players}</div>
+            <div class="jobid">JobId: ${s.jobId}</div>
+          </div>
+        `).join('') 
+        : '<p>Loading...</p>'}
+    </body>
+    </html>
+  `;
+  res.send(html);
+});
+
+app.get("/jobids", (req, res) => {
+  res.json(jobIds);
+});
+
+app.get("/servers", (req, res) => {
+  res.json(servers);
+});
+
+async function fetchJobIds() {
+  try {
+    const response = await fetch(API_URL);
+    const data = await response.json();
+
+    if (data && data.pets) {
+      const serverMap = new Map();
+      
+      data.pets.forEach(p => {
+        const link = p.chillihubLink || "";
+        const match = link.match(/gameInstanceId=([\w-]+)/);
+        if (match) {
+          const jobId = match[1];
+          if (!serverMap.has(jobId)) {
+            const moneyStr = p.money || "0M/s";
+            const moneyNum = parseFloat(moneyStr.replace(/[^\d.]/g, '')) || 0;
+            
+            serverMap.set(jobId, {
+              name: p.name || "Unknown",
+              money: moneyStr,
+              moneyNum: moneyNum,
+              players: p.players || "?/?",
+              jobId: jobId
+            });
+          }
+        }
+      });
+      
+      servers = Array.from(serverMap.values());
+      servers.sort((a, b) => b.moneyNum - a.moneyNum);
+      jobIds = servers.map(s => s.jobId);
+
+      console.log("Servers:", servers.length, "| Jobs:", jobIds.length);
+    }
+  } catch (err) {
+    console.error("Error fetching API:", err.message);
+  }
+}
+
+setInterval(fetchJobIds, REFRESH_RATE);
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
+  fetchJobIds();
+});
