@@ -15,58 +15,29 @@ app.get("/", (req, res) => {
     <html>
     <head>
       <title>Pet Servers</title>
+      <meta http-equiv="refresh" content="2">
       <style>
         body { font-family: monospace; background: #1a1a1a; color: #0f0; padding: 20px; }
         h1 { color: #0f0; }
-        .server { background: #2a2a3a; padding: 10px; margin: 8px 0; border-radius: 8px; position: relative; }
+        .server { background: #2a2a3a; padding: 10px; margin: 8px 0; border-radius: 8px; }
         .name { color: #4ade80; font-weight: bold; font-size: 16px; }
         .money { color: #fbbf24; font-size: 14px; }
         .players { color: #60a5fa; font-size: 12px; }
         .jobid { color: #94a3b8; font-size: 12px; }
-        .timer { color: #f87171; font-size: 12px; margin-top: 2px; }
-        .join-btn { 
-          position: absolute; 
-          right: 10px; 
-          bottom: 10px; 
-          background: #3b82f6; 
-          color: #fff; 
-          padding: 4px 8px; 
-          border-radius: 6px; 
-          text-decoration: none; 
-          font-size: 12px;
-        }
       </style>
     </head>
     <body>
       <h1>Pet Servers (${servers.length})</h1>
       ${servers.length > 0 
         ? servers.map(s => `
-          <div class="server" data-added="${s.addedAt || Date.now()}">
+          <div class="server">
             <div class="name">${s.name}</div>
             <div class="money">$${s.money}</div>
             <div class="players">Players: ${s.players}</div>
             <div class="jobid">JobId: ${s.jobId}</div>
-            <div class="timer">Seen: 0s</div>
-            <a class="join-btn" href="roblox://place-launch/?placeId=109983668079237&gameInstanceId=${s.jobId}">JOIN</a>
           </div>
         `).join('') 
         : '<p>Loading...</p>'}
-      <script>
-        function updateTimers() {
-          const servers = document.querySelectorAll('.server');
-          const now = Date.now();
-          servers.forEach(server => {
-            const added = parseInt(server.dataset.added);
-            if (!isNaN(added)) {
-              const diff = Math.floor((now - added) / 1000); // seconds
-              const mins = Math.floor(diff / 60);
-              const secs = diff % 60;
-              server.querySelector('.timer').innerText = \`Seen: \${mins}m \${secs}s\`;
-            }
-          });
-        }
-        setInterval(updateTimers, 1000);
-      </script>
     </body>
     </html>
   `;
@@ -88,7 +59,6 @@ async function fetchJobIds() {
 
     if (data && data.pets) {
       const serverMap = new Map();
-      const now = Date.now();
       
       data.pets.forEach(p => {
         const link = p.chillihubLink || "";
@@ -104,8 +74,7 @@ async function fetchJobIds() {
               money: moneyStr,
               moneyNum: moneyNum,
               players: p.players || "?/?",
-              jobId: jobId,
-              addedAt: now // store when server first seen
+              jobId: jobId
             });
           }
         }
